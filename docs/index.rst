@@ -15,6 +15,7 @@ documentation for details.
    :caption: Contents:
 
    modules
+   app
 
 Indices and tables
 ==================
