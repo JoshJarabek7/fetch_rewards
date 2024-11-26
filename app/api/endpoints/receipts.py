@@ -12,7 +12,7 @@ router = APIRouter(prefix="/receipts")
 
 
 @router.post("/process", response_model=ReceiptIDResponse)
-async def receipts_process_route(receipt: Receipt):
+async def process_receipt(receipt: Receipt):
     """
     Processes a receipt and stores it in the in-memory database.
 
