@@ -33,7 +33,7 @@ async def process_receipt(receipt: Receipt):
 @router.get("/{id}/points", response_model=PointsResponse)
 async def get_receipt_points(id: UUID):
     """
-    Retrieves the points awared for a given receipt.
+    Retrieves the points awarded for a given receipt.
 
     Parameters
     ----------
